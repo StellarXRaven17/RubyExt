@@ -1447,6 +1447,34 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Reddyefrompoppy",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reddyefrompoppy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/red_dye_from_poppy.json",
+          "src/main/resources/data/rubyext/advancements/recipes/reddyefrompoppy.json"
+        ]
+      },
+      "path": "~/RecipeOverrides"
+    },
+    {
+      "name": "Yellowdyefromdandelion",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowdyefromdandelion",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/yellow_dye_from_dandelion.json",
+          "src/main/resources/data/rubyext/advancements/recipes/yellowdyefromdandelion.json"
+        ]
+      },
+      "path": "~/RecipeOverrides"
     }
   ],
   "variable_elements": [
@@ -1709,6 +1737,10 @@
       },
       {
         "name": "Items",
+        "children": []
+      },
+      {
+        "name": "RecipeOverrides",
         "children": []
       }
     ]
