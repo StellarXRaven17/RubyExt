@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "rubyext:tea_logs"
+    }
+  ],
+  "result": {
+    "item": "rubyext:tea_planks",
+    "count": 4
+  }
+}

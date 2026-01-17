@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rubyext:block/obsidian_infused_lily"
+  },
+  "render_type": "translucent"
+}

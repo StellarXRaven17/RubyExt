@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "rubyext:block/gold_infused_lily",
+    "particle": "rubyext:block/gold_infused_lily"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "bark",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:StrippedFlamewoodLog"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StrippedFlamewoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedFlamewoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StrippedFlamewoodLog"
+      },
+      {
+        "value": "CUSTOM:StrippedFlamewoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedFlamewoodWood"
+    },
+    "name": "stripped_flamewood_wood_recipe",
+    "namespace": "mod"
+  }
+}

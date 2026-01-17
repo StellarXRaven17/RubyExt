@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rubyext:stripped_flamewood_wood",
+    "rubyext:flamewood_log",
+    "rubyext:flamewood_wood",
+    "rubyext:stripped_flamewood_log"
+  ]
+}

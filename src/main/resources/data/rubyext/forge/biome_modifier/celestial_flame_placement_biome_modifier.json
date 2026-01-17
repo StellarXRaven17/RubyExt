@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "rubyext:celestial_flame_placement",
+  "step": "local_modifications"
+}

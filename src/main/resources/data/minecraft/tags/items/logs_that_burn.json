@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#rubyext:tea_logs",
+      "required": false
+    },
+    {
+      "id": "#rubyext:flamewood_logs",
+      "required": false
+    }
+  ]
+}

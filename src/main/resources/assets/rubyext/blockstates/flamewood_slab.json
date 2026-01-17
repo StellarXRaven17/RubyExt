@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rubyext:block/flamewood_slab"
+    },
+    "type=top": {
+      "model": "rubyext:block/flamewood_slab_top"
+    },
+    "type=double": {
+      "model": "rubyext:block/flamewood_slab_full"
+    }
+  }
+}

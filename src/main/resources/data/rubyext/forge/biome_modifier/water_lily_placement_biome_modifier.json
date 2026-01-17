@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#rubyext:water_lily_spawnable",
+  "features": "rubyext:water_lily_placement",
+  "step": "local_modifications"
+}

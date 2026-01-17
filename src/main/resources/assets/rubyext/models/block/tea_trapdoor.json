@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "rubyext:block/tea_trapdoor",
+    "particle": "rubyext:block/tea_trapdoor"
+  },
+  "render_type": "cutout"
+}

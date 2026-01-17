@@ -1,0 +1,29 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+          "biome": "rubyext:nexus_plains",
+          "features": false,
+          "lakes": false,
+          "layers": [
+            {
+              "block": "minecraft:bedrock",
+              "height": 1
+            },
+            {
+              "block": "rubyext:debug",
+              "height": 4
+            }
+          ],
+          "structure_overrides": [
+            "minecraft:strongholds",
+            "minecraft:villages"
+          ]
+        }
+      }
+    }
+  }
+}

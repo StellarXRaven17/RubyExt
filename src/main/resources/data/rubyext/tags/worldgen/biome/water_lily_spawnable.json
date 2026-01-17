@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "beach",
+    "ocean",
+    {
+      "id": "moderner_beta:beta",
+      "required": false
+    },
+    "river",
+    {
+      "id": "moderner_beta:alpha",
+      "required": false
+    }
+  ]
+}

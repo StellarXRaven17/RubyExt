@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubyext:block/tea_log_top",
+    "up": "rubyext:block/tea_log_top",
+    "north": "rubyext:block/tea_log",
+    "east": "rubyext:block/tea_log",
+    "south": "rubyext:block/tea_log",
+    "west": "rubyext:block/tea_log",
+    "particle": "rubyext:block/tea_log_top"
+  },
+  "render_type": "solid"
+}

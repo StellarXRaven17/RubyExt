@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "rubyext:tea_planks"
+    }
+  ],
+  "result": {
+    "item": "rubyext:tea_button",
+    "count": 1
+  }
+}

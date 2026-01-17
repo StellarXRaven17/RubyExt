@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "rubyext:block/tea_door_bottom",
+    "bottom": "rubyext:block/tea_door_bottom",
+    "top": "rubyext:block/tea_door_top"
+  },
+  "render_type": "cutout"
+}

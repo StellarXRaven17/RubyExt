@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "rubyext:blocks/flame_infused_lily",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rubyext:flame_infused_lily"
+        }
+      ]
+    }
+  ]
+}

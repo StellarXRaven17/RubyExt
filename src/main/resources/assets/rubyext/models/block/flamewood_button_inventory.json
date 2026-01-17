@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "rubyext:block/flamewood_planks",
+    "particle": "rubyext:block/flamewood_planks"
+  },
+  "render_type": "solid"
+}

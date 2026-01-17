@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "rubyext:tea_log",
+    "rubyext:stripped_tea_wood",
+    "rubyext:stripped_tea_log",
+    "rubyext:tea_wood"
+  ]
+}

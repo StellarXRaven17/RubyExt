@@ -1,0 +1,12 @@
+{
+  "asset_name": "obsidian",
+  "description": {
+    "color": "#422756",
+    "translate": "trim_material.minecraft.netherite"
+  },
+  "ingredient": "rubyext:obsidian_ingot",
+  "item_model_index": 0.4,
+  "override_armor_materials": {
+    "obsidian": "obsidian_darker"
+  }
+}

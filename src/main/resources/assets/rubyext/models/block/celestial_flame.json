@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "rubyext:block/celestial_flame",
+    "particle": "rubyext:block/celestial_flame"
+  },
+  "render_type": "cutout_mipped"
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "rubyext:block/tea_planks",
+    "bottom": "rubyext:block/tea_planks",
+    "top": "rubyext:block/tea_planks",
+    "side": "rubyext:block/tea_planks"
+  },
+  "render_type": "solid"
+}

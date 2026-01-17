@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubyext:block/stripped_flamewood_log_top",
+    "up": "rubyext:block/stripped_flamewood_log_top",
+    "north": "rubyext:block/stripped_flamewood_log",
+    "east": "rubyext:block/stripped_flamewood_log",
+    "south": "rubyext:block/stripped_flamewood_log",
+    "west": "rubyext:block/stripped_flamewood_log",
+    "particle": "rubyext:block/stripped_flamewood_log_top"
+  },
+  "render_type": "solid"
+}

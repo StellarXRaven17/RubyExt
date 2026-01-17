@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubyext:block/tea_log",
+    "particle": "rubyext:block/tea_log"
+  },
+  "render_type": "solid"
+}

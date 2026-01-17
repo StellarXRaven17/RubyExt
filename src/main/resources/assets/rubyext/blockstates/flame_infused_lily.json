@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "rubyext:block/flame_infused_lily"
+    }
+  }
+}

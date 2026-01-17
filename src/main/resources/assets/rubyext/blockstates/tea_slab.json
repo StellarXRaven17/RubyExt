@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rubyext:block/tea_slab"
+    },
+    "type=top": {
+      "model": "rubyext:block/tea_slab_top"
+    },
+    "type=double": {
+      "model": "rubyext:block/tea_slab_full"
+    }
+  }
+}

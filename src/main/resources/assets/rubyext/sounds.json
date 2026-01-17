@@ -1,0 +1,11 @@
+{
+  "block.water_lily.infuse": {
+    "subtitle": "subtitles.block.water_lily.infuse",
+    "sounds": [
+      {
+        "name": "rubyext:infuse",
+        "stream": false
+      }
+    ]
+  }
+}

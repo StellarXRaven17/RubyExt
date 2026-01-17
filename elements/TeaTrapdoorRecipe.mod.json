@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "wooden_trapdoor",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:TeaPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TeaPlanks"
+      },
+      {
+        "value": "CUSTOM:TeaPlanks"
+      },
+      {
+        "value": "CUSTOM:TeaPlanks"
+      },
+      {
+        "value": "CUSTOM:TeaPlanks"
+      },
+      {
+        "value": "CUSTOM:TeaPlanks"
+      },
+      {
+        "value": "CUSTOM:TeaPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TeaTrapdoor"
+    },
+    "name": "tea_trapdoor_recipe",
+    "namespace": "mod"
+  }
+}

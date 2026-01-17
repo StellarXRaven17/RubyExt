@@ -1,0 +1,1732 @@
+{
+  "mod_elements": [
+    {
+      "name": "WaterLilyHeal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_lily_heal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/WaterLilyHealProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "WaterLily",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_lily",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/water_lily.json",
+          "src/main/resources/assets/rubyext/models/block/water_lily.json",
+          "src/main/java/net/mcreator/rubyext/block/WaterLilyBlock.java",
+          "src/main/resources/assets/rubyext/models/item/water_lily.json",
+          "src/main/resources/assets/rubyext/blockstates/water_lily.json"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "WaterLilyPlacement",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_lily_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/forge/biome_modifier/water_lily_placement_biome_modifier.json",
+          "src/main/resources/data/rubyext/worldgen/configured_feature/water_lily_placement.json",
+          "src/main/resources/data/rubyext/worldgen/placed_feature/water_lily_placement.json"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "CelestialFlame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_flame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/blockstates/celestial_flame.json",
+          "src/main/resources/assets/rubyext/models/item/celestial_flame.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/celestial_flame.json",
+          "src/main/java/net/mcreator/rubyext/block/CelestialFlameBlock.java",
+          "src/main/resources/assets/rubyext/models/block/celestial_flame.json"
+        ]
+      },
+      "path": "~/Blocks/CelestialFlame"
+    },
+    {
+      "name": "PackCavestyle",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pack_cavestyle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/PackCavestyle.java"
+        ]
+      },
+      "path": "~/CustomCode/BuiltinResourcePacks"
+    },
+    {
+      "name": "CelestialFlamePlacement",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "celestial_flame_placement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/worldgen/placed_feature/celestial_flame_placement.json",
+          "src/main/resources/data/rubyext/worldgen/configured_feature/celestial_flame_placement.json",
+          "src/main/resources/data/rubyext/forge/biome_modifier/celestial_flame_placement_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks/CelestialFlame"
+    },
+    {
+      "name": "FlamewoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_log.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_log.json",
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodLogBlock.java",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_log.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_log.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_wood.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_wood.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_wood.json",
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodWoodBlock.java",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_wood.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "StrippedFlamewoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_flamewood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/blockstates/stripped_flamewood_log.json",
+          "src/main/resources/assets/rubyext/models/block/stripped_flamewood_log.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/stripped_flamewood_log.json",
+          "src/main/java/net/mcreator/rubyext/block/StrippedFlamewoodLogBlock.java",
+          "src/main/resources/assets/rubyext/models/item/stripped_flamewood_log.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "StrippedFlamewoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_flamewood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/stripped_flamewood_wood.json",
+          "src/main/java/net/mcreator/rubyext/block/StrippedFlamewoodWoodBlock.java",
+          "src/main/resources/assets/rubyext/blockstates/stripped_flamewood_wood.json",
+          "src/main/resources/assets/rubyext/models/block/stripped_flamewood_wood.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/stripped_flamewood_wood.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/block/flamewood_planks.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_planks.json",
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodPlanksBlock.java",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_planks.json",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_planks.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodLeavesBlock.java",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_leaves.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_leaves.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_leaves.json",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_leaves.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_stairs.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_stairs.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_stairs_outer.json",
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodStairsBlock.java",
+          "src/main/resources/assets/rubyext/models/block/flamewood_stairs_inner.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_stairs.json",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodSlabBlock.java",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_slab.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_slab_full.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_slab_top.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_slab.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_slab.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_slab.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_fence.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_fence.json",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_fence.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_fence_post.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_fence_inventory.json",
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodFenceBlock.java",
+          "src/main/resources/assets/rubyext/models/block/flamewood_fence.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodFenceGateBlock.java",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_fence_gate.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_fence_gate_open.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_fence_gate.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_fence_gate.json",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_fence_gate.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_fence_gate_wall.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_fence_gate_wall_open.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/block/flamewood_door_top_left.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_door.json",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_door.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_door_bottom_left_open.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_door_top_right.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_door_top_right_open.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_door_bottom_left.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_door_bottom_right.json",
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodDoorBlock.java",
+          "src/main/resources/assets/rubyext/models/block/flamewood_door_top_left_open.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_door.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_door_bottom_right_open.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodTrapdoorBlock.java",
+          "src/main/resources/assets/rubyext/models/block/flamewood_trapdoor_open.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_trapdoor.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_trapdoor_top.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_trapdoor.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_trapdoor.json",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/block/flamewood_pressure_plate.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_pressure_plate.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_pressure_plate_down.json",
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodPressurePlateBlock.java",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_pressure_plate.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/block/flamewood_button_pressed.json",
+          "src/main/resources/assets/rubyext/models/item/flamewood_button.json",
+          "src/main/resources/assets/rubyext/blockstates/flamewood_button.json",
+          "src/main/resources/assets/rubyext/models/block/flamewood_button_inventory.json",
+          "src/main/java/net/mcreator/rubyext/block/FlamewoodButtonBlock.java",
+          "src/main/resources/assets/rubyext/models/block/flamewood_button.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flamewood_button.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/flamewood_wood_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "StrippedFlamewoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_flamewood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/stripped_flamewood_wood_recipe.json",
+          "src/main/resources/data/rubyext/recipes/stripped_flamewood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/flamewood_planks_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_planks_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/flamewood_stairs_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_slab_recipe.json",
+          "src/main/resources/data/rubyext/recipes/flamewood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/flamewood_fence_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_fence_gate_recipe.json",
+          "src/main/resources/data/rubyext/recipes/flamewood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/flamewood_door_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_door_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_trapdoor_recipe.json",
+          "src/main/resources/data/rubyext/recipes/flamewood_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_pressure_plate_recipe.json",
+          "src/main/resources/data/rubyext/recipes/flamewood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/flamewood_button_recipe.json",
+          "src/main/resources/data/rubyext/recipes/flamewood_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "TeaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/tea_log.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_log.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaLogBlock.java",
+          "src/main/resources/assets/rubyext/models/block/tea_log.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_log.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_wood.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaWoodBlock.java",
+          "src/main/resources/assets/rubyext/models/block/tea_wood.json",
+          "src/main/resources/assets/rubyext/models/item/tea_wood.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_wood.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "StrippedTeaLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_tea_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/blockstates/stripped_tea_log.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/stripped_tea_log.json",
+          "src/main/java/net/mcreator/rubyext/block/StrippedTeaLogBlock.java",
+          "src/main/resources/assets/rubyext/models/item/stripped_tea_log.json",
+          "src/main/resources/assets/rubyext/models/block/stripped_tea_log.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "StrippedTeaWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_tea_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/stripped_tea_wood.json",
+          "src/main/resources/assets/rubyext/models/block/stripped_tea_wood.json",
+          "src/main/java/net/mcreator/rubyext/block/StrippedTeaWoodBlock.java",
+          "src/main/resources/assets/rubyext/models/item/stripped_tea_wood.json",
+          "src/main/resources/assets/rubyext/blockstates/stripped_tea_wood.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/tea_planks.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_planks.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaPlanksBlock.java",
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_planks.json",
+          "src/main/resources/assets/rubyext/models/block/tea_planks.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/block/TeaLeavesBlock.java",
+          "src/main/resources/assets/rubyext/models/item/tea_leaves.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_leaves.json",
+          "src/main/resources/assets/rubyext/models/block/tea_leaves.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_leaves.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/block/tea_stairs.json",
+          "src/main/resources/assets/rubyext/models/block/tea_stairs_inner.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_stairs.json",
+          "src/main/resources/assets/rubyext/models/item/tea_stairs.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_stairs.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaStairsBlock.java",
+          "src/main/resources/assets/rubyext/models/block/tea_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_slab.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_slab.json",
+          "src/main/resources/assets/rubyext/models/item/tea_slab.json",
+          "src/main/resources/assets/rubyext/models/block/tea_slab.json",
+          "src/main/resources/assets/rubyext/models/block/tea_slab_full.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaSlabBlock.java",
+          "src/main/resources/assets/rubyext/models/block/tea_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/tea_fence.json",
+          "src/main/resources/assets/rubyext/models/block/tea_fence.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaFenceBlock.java",
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_fence.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_fence.json",
+          "src/main/resources/assets/rubyext/models/block/tea_fence_inventory.json",
+          "src/main/resources/assets/rubyext/models/block/tea_fence_post.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/block/tea_fence_gate_wall.json",
+          "src/main/resources/assets/rubyext/models/block/tea_fence_gate_wall_open.json",
+          "src/main/resources/assets/rubyext/models/item/tea_fence_gate.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaFenceGateBlock.java",
+          "src/main/resources/assets/rubyext/blockstates/tea_fence_gate.json",
+          "src/main/resources/assets/rubyext/models/block/tea_fence_gate.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_fence_gate.json",
+          "src/main/resources/assets/rubyext/models/block/tea_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/block/tea_door_bottom_left_open.json",
+          "src/main/resources/assets/rubyext/models/block/tea_door_top_left_open.json",
+          "src/main/resources/assets/rubyext/models/block/tea_door_top_left.json",
+          "src/main/resources/assets/rubyext/models/block/tea_door_bottom_left.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_door.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_door.json",
+          "src/main/resources/assets/rubyext/models/block/tea_door_bottom_right.json",
+          "src/main/resources/assets/rubyext/models/block/tea_door_bottom_right_open.json",
+          "src/main/resources/assets/rubyext/models/block/tea_door_top_right.json",
+          "src/main/resources/assets/rubyext/models/block/tea_door_top_right_open.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaDoorBlock.java",
+          "src/main/resources/assets/rubyext/models/item/tea_door.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_trapdoor.json",
+          "src/main/resources/assets/rubyext/models/item/tea_trapdoor.json",
+          "src/main/resources/assets/rubyext/models/block/tea_trapdoor.json",
+          "src/main/resources/assets/rubyext/models/block/tea_trapdoor_top.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_trapdoor.json",
+          "src/main/resources/assets/rubyext/models/block/tea_trapdoor_open.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaTrapdoorBlock.java"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/block/TeaPressurePlateBlock.java",
+          "src/main/resources/assets/rubyext/models/item/tea_pressure_plate.json",
+          "src/main/resources/assets/rubyext/models/block/tea_pressure_plate_down.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_pressure_plate.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_pressure_plate.json",
+          "src/main/resources/assets/rubyext/models/block/tea_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/tea_button.json",
+          "src/main/resources/assets/rubyext/models/block/tea_button_inventory.json",
+          "src/main/resources/assets/rubyext/models/item/tea_button.json",
+          "src/main/resources/assets/rubyext/blockstates/tea_button.json",
+          "src/main/java/net/mcreator/rubyext/block/TeaButtonBlock.java",
+          "src/main/resources/assets/rubyext/models/block/tea_button.json",
+          "src/main/resources/assets/rubyext/models/block/tea_button_pressed.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/tea_wood_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/tea_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "StrippedTeaWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_tea_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/stripped_tea_wood_recipe.json",
+          "src/main/resources/data/rubyext/recipes/stripped_tea_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/tea_planks_recipe.json",
+          "src/main/resources/data/rubyext/recipes/tea_planks_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/tea_stairs_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/tea_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/tea_slab_recipe.json",
+          "src/main/resources/data/rubyext/recipes/tea_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/tea_fence_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/tea_fence_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/tea_fence_gate_recipe.json",
+          "src/main/resources/data/rubyext/recipes/tea_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/tea_door_recipe.json",
+          "src/main/resources/data/rubyext/recipes/tea_door_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/tea_trapdoor_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/tea_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/tea_pressure_plate_recipe.json",
+          "src/main/resources/data/rubyext/recipes/tea_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "TeaButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tea_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/tea_button_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/tea_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Tea"
+    },
+    {
+      "name": "Debug",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/debug.json",
+          "src/main/resources/assets/rubyext/blockstates/debug.json",
+          "src/main/resources/assets/rubyext/models/block/debug.json",
+          "src/main/resources/assets/rubyext/models/item/debug.json",
+          "src/main/java/net/mcreator/rubyext/block/DebugBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DebugCross",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_cross",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/debug_cross.json",
+          "src/main/resources/assets/rubyext/models/block/debug_cross.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/debug_cross.json",
+          "src/main/java/net/mcreator/rubyext/block/DebugCrossBlock.java",
+          "src/main/resources/assets/rubyext/blockstates/debug_cross.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NexusPlains",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nexus_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/worldgen/biome/nexus_plains.json",
+          "src/main/resources/data/rubyext/worldgen/configured_feature/nexus_plains_tree.json",
+          "src/main/resources/data/rubyext/worldgen/placed_feature/nexus_plains_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "HubDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hub_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/hub_door.json",
+          "src/main/resources/assets/rubyext/blockstates/hub_door.json",
+          "src/main/java/net/mcreator/rubyext/block/HubDoorBlock.java",
+          "src/main/resources/assets/rubyext/models/block/hub_door_bottom_right_open.json",
+          "src/main/resources/assets/rubyext/models/block/hub_door_bottom_left_open.json",
+          "src/main/resources/assets/rubyext/models/block/hub_door_top_left_open.json",
+          "src/main/resources/assets/rubyext/models/block/hub_door_top_right.json",
+          "src/main/resources/assets/rubyext/models/block/hub_door_top_right_open.json",
+          "src/main/resources/assets/rubyext/models/block/hub_door_bottom_right.json",
+          "src/main/resources/assets/rubyext/models/item/hub_door.json",
+          "src/main/resources/assets/rubyext/models/block/hub_door_bottom_left.json",
+          "src/main/resources/assets/rubyext/models/block/hub_door_top_left.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ObsidianIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/item/ObsidianIngotItem.java",
+          "src/main/resources/assets/rubyext/models/item/obsidian_ingot.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/obsidian_ore_smelting.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/item/ObsidianPickaxeItem.java",
+          "src/main/resources/assets/rubyext/models/item/obsidian_pickaxe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/item/ObsidianAxeItem.java",
+          "src/main/resources/assets/rubyext/models/item/obsidian_axe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/obsidian_sword.json",
+          "src/main/java/net/mcreator/rubyext/item/ObsidianSwordItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/obsidian_shovel.json",
+          "src/main/java/net/mcreator/rubyext/item/ObsidianShovelItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/item/ObsidianHoeItem.java",
+          "src/main/resources/assets/rubyext/models/item/obsidian_hoe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_pickaxe_recipe.json",
+          "src/main/resources/data/rubyext/recipes/obsidian_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/obsidian_axe_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_axe_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/obsidian_sword_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_sword_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_shovel_recipe.json",
+          "src/main/resources/data/rubyext/recipes/obsidian_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/obsidian_hoe_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/obsidian_armor_boots.json",
+          "src/main/java/net/mcreator/rubyext/item/ObsidianArmorItem.java",
+          "src/main/resources/assets/rubyext/models/item/obsidian_armor_chestplate.json",
+          "src/main/resources/assets/rubyext/models/item/obsidian_armor_helmet.json",
+          "src/main/resources/assets/rubyext/models/item/obsidian_armor_leggings.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/obsidian_armor_helmet_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/obsidian_armor_chestplate_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_armor_leggings_recipe.json",
+          "src/main/resources/data/rubyext/recipes/obsidian_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "ObsidianArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/obsidian_armor_boots_recipe.json",
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "CheckARGContainerLoaded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_arg_container_loaded",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/CheckARGContainerLoadedProcedure.java"
+        ]
+      },
+      "path": "~/CustomCode"
+    },
+    {
+      "name": "ReturnFalse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disable_features",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/ReturnFalseProcedure.java"
+        ]
+      },
+      "path": "~/CustomCode"
+    },
+    {
+      "name": "ReturnTrue",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_true",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/ReturnTrueProcedure.java"
+        ]
+      },
+      "path": "~/CustomCode"
+    },
+    {
+      "name": "FlameInfusedLily",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame_infused_lily",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/flame_infused_lily.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/flame_infused_lily.json",
+          "src/main/resources/assets/rubyext/models/block/flame_infused_lily.json",
+          "src/main/resources/assets/rubyext/blockstates/flame_infused_lily.json",
+          "src/main/java/net/mcreator/rubyext/block/FlameInfusedLilyBlock.java"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "GoldInfusedLily",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_infused_lily",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubyext/models/item/gold_infused_lily.json",
+          "src/main/resources/data/rubyext/loot_tables/blocks/gold_infused_lily.json",
+          "src/main/resources/assets/rubyext/blockstates/gold_infused_lily.json",
+          "src/main/resources/assets/rubyext/models/block/gold_infused_lily.json",
+          "src/main/java/net/mcreator/rubyext/block/GoldInfusedLilyBlock.java"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "LilyHurtMobFlame",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lily_hurt_mob_flame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/LilyHurtMobFlameProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "LilyHurtMobGold",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lily_hurt_mob_gold",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/LilyHurtMobGoldProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "LilyHurtMobObsidian",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lily_hurt_mob_obsidian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/LilyHurtMobObsidianProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "LilyInfuse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lily_infuse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/LilyInfuseProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "ObsidianInfusedLily",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_infused_lily",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/loot_tables/blocks/obsidian_infused_lily.json",
+          "src/main/resources/assets/rubyext/blockstates/obsidian_infused_lily.json",
+          "src/main/java/net/mcreator/rubyext/block/ObsidianInfusedLilyBlock.java",
+          "src/main/resources/assets/rubyext/models/item/obsidian_infused_lily.json",
+          "src/main/resources/assets/rubyext/models/block/obsidian_infused_lily.json"
+        ]
+      },
+      "path": "~/Blocks/WaterLily"
+    },
+    {
+      "name": "ObsidianIngotBlasting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_ingot_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/obsidian_ingot_blasting.json",
+          "src/main/resources/data/rubyext/advancements/recipes/obsidian_ingot_blasting.json"
+        ]
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "argContainerLoaded",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "block.water_lily.infuse",
+      "files": [
+        "infuse"
+      ],
+      "category": "block",
+      "subtitle": "water lily gets infused"
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:mod:water_lily_spawnable": [
+      "beaches",
+      "ocean",
+      "river",
+      "EXTERNAL:moderner_beta:alpha",
+      "EXTERNAL:moderner_beta:beta"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:TeaButton",
+      "~CUSTOM:TeaPressurePlate",
+      "~CUSTOM:TeaTrapdoor",
+      "~CUSTOM:TeaDoor",
+      "~CUSTOM:TeaFenceGate",
+      "~CUSTOM:TeaFence",
+      "~CUSTOM:TeaSlab",
+      "~CUSTOM:TeaStairs",
+      "~CUSTOM:TeaPlanks",
+      "~CUSTOM:StrippedTeaWood",
+      "~CUSTOM:StrippedTeaLog",
+      "~CUSTOM:TeaWood",
+      "~CUSTOM:TeaLog",
+      "~CUSTOM:FlamewoodButton",
+      "~CUSTOM:FlamewoodPressurePlate",
+      "~CUSTOM:FlamewoodTrapdoor",
+      "~CUSTOM:FlamewoodDoor",
+      "~CUSTOM:FlamewoodFenceGate",
+      "~CUSTOM:FlamewoodFence",
+      "~CUSTOM:FlamewoodSlab",
+      "~CUSTOM:FlamewoodStairs",
+      "~CUSTOM:FlamewoodPlanks",
+      "~CUSTOM:StrippedFlamewoodWood",
+      "~CUSTOM:StrippedFlamewoodLog",
+      "~CUSTOM:FlamewoodWood",
+      "~CUSTOM:FlamewoodLog"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:TeaLeaves",
+      "~CUSTOM:FlamewoodLeaves"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:TeaStairs",
+      "~CUSTOM:FlamewoodStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:TeaSlab",
+      "~CUSTOM:FlamewoodSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:TeaFence",
+      "~CUSTOM:FlamewoodFence"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:TeaDoor",
+      "~CUSTOM:FlamewoodDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:TeaTrapdoor",
+      "~CUSTOM:FlamewoodTrapdoor"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:TeaPressurePlate",
+      "~CUSTOM:FlamewoodPressurePlate"
+    ],
+    "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:TeaButton",
+      "~CUSTOM:FlamewoodButton"
+    ],
+    "BLOCKS:mod:flamewood_logs": [
+      "CUSTOM:FlamewoodLog",
+      "CUSTOM:FlamewoodWood",
+      "CUSTOM:StrippedFlamewoodLog",
+      "CUSTOM:StrippedFlamewoodWood"
+    ],
+    "BLOCKS:minecraft:logs_that_burn": [
+      "TAG:mod:flamewood_logs",
+      "TAG:mod:tea_logs"
+    ],
+    "BLOCKS:minecraft:planks": [
+      "CUSTOM:FlamewoodPlanks",
+      "CUSTOM:TeaPlanks"
+    ],
+    "ITEMS:mod:flamewood_logs": [
+      "CUSTOM:FlamewoodLog",
+      "CUSTOM:FlamewoodWood",
+      "CUSTOM:StrippedFlamewoodLog",
+      "CUSTOM:StrippedFlamewoodWood"
+    ],
+    "ITEMS:minecraft:logs_that_burn": [
+      "TAG:mod:flamewood_logs",
+      "TAG:mod:tea_logs"
+    ],
+    "ITEMS:minecraft:planks": [
+      "CUSTOM:FlamewoodPlanks",
+      "CUSTOM:TeaPlanks"
+    ],
+    "BLOCKS:mod:tea_logs": [
+      "CUSTOM:TeaLog",
+      "CUSTOM:TeaWood",
+      "CUSTOM:StrippedTeaLog",
+      "CUSTOM:StrippedTeaWood"
+    ],
+    "ITEMS:mod:tea_logs": [
+      "CUSTOM:TeaLog",
+      "CUSTOM:TeaWood",
+      "CUSTOM:StrippedTeaLog",
+      "CUSTOM:StrippedTeaWood"
+    ],
+    "BLOCKS:minecraft:doors": [
+      "~CUSTOM:HubDoor"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:ObsidianPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:ObsidianAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:ObsidianSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:ObsidianShovel"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:ObsidianHoe"
+    ],
+    "ITEMS:minecraft:trim_materials": [
+      "CUSTOM:ObsidianIngot"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.rubyext.water_lily": "Water Lily",
+      "block.rubyext.celestial_flame": "Celestial Flame",
+      "block.rubyext.flamewood_log": "Flamewood Log",
+      "block.rubyext.flamewood_wood": "Flamewood Wood",
+      "block.rubyext.stripped_flamewood_log": "Stripped Flamewood Log",
+      "block.rubyext.stripped_flamewood_wood": "Stripped Flamewood Wood",
+      "block.rubyext.flamewood_planks": "Flamewood Planks",
+      "block.rubyext.flamewood_leaves": "Flamewood Leaves",
+      "block.rubyext.flamewood_stairs": "Flamewood Stairs",
+      "block.rubyext.flamewood_slab": "Flamewood Slab",
+      "block.rubyext.flamewood_fence": "Flamewood Fence",
+      "block.rubyext.flamewood_fence_gate": "Flamewood Fence Gate",
+      "block.rubyext.flamewood_door": "Flamewood Door",
+      "block.rubyext.flamewood_trapdoor": "Flamewood Trapdoor",
+      "block.rubyext.flamewood_pressure_plate": "Flamewood Pressure Plate",
+      "block.rubyext.flamewood_button": "Flamewood Button",
+      "block.rubyext.tea_log": "Tea Log",
+      "block.rubyext.tea_wood": "Tea Wood",
+      "block.rubyext.stripped_tea_log": "Stripped Tea Log",
+      "block.rubyext.stripped_tea_wood": "Stripped Tea Wood",
+      "block.rubyext.tea_planks": "Tea Planks",
+      "block.rubyext.tea_leaves": "Tea Leaves",
+      "block.rubyext.tea_stairs": "Tea Stairs",
+      "block.rubyext.tea_slab": "Tea Slab",
+      "block.rubyext.tea_fence": "Tea Fence",
+      "block.rubyext.tea_fence_gate": "Tea Fence Gate",
+      "block.rubyext.tea_door": "Tea Door",
+      "block.rubyext.tea_trapdoor": "Tea Trapdoor",
+      "block.rubyext.tea_pressure_plate": "Tea Pressure Plate",
+      "block.rubyext.tea_button": "Tea Button",
+      "block.rubyext.debug": "Debug",
+      "block.rubyext.debug_cross": "Debug",
+      "biome.rubyext.nexus_plains": "Nexus Plains",
+      "block.rubyext.hub_door": "Hub Door",
+      "item.rubyext.obsidian_ingot": "Obsidian Ingot",
+      "item.rubyext.obsidian_pickaxe": "Obsidian Pickaxe",
+      "item.rubyext.obsidian_axe": "Obsidian Axe",
+      "item.rubyext.obsidian_sword": "Obsidian Sword",
+      "item.rubyext.obsidian_shovel": "Obsidian Shovel",
+      "item.rubyext.obsidian_hoe": "Obsidian Hoe",
+      "item.rubyext.obsidian_armor_boots": "Obsidian Boots",
+      "item.rubyext.obsidian_armor_helmet": "Obsidian Helmet",
+      "item.rubyext.obsidian_armor_chestplate": "Obsidian Chestplate",
+      "item.rubyext.obsidian_armor_leggings": "Obsidian Leggings",
+      "block.rubyext.flame_infused_lily": "Flame Infused Lily",
+      "block.rubyext.gold_infused_lily": "Gold Infused Lily",
+      "block.rubyext.obsidian_infused_lily": "Gold Infused Lily",
+      "subtitles.lily_infuse": "water lily infused",
+      "subtitles.block.water_lily.infuse": "water lily gets infused"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/rubyext/init/RubyextModBlocks.java",
+      "src/main/java/net/mcreator/rubyext/init/RubyextModItems.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/assets/rubyext/sounds.json",
+      "src/main/java/net/mcreator/rubyext/init/RubyextModTabs.java",
+      "src/main/java/net/mcreator/rubyext/init/RubyextModSounds.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/rubyext/RubyextMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/rubyext/network/RubyextModVariables.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "WaterLily",
+            "children": []
+          },
+          {
+            "name": "CelestialFlame",
+            "children": []
+          },
+          {
+            "name": "WoodSets",
+            "children": [
+              {
+                "name": "Tea",
+                "children": []
+              },
+              {
+                "name": "Flamewood",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "CustomCode",
+        "children": [
+          {
+            "name": "BuiltinResourcePacks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "rubyext",
+    "modName": "RubyExtension",
+    "version": "1.0.0",
+    "author": "StellarXRaven17",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Mod by Raven, coding help by Glitchy606, Jappa textures by Mariood.",
+    "modElementsPackage": "net.mcreator.rubyext"
+  },
+  "mcreatorVersion": 202500345720
+}

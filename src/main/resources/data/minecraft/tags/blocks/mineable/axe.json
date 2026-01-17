@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "rubyext:tea_planks",
+    "rubyext:tea_button",
+    "rubyext:flamewood_planks",
+    "rubyext:tea_fence",
+    "rubyext:tea_log",
+    "rubyext:flamewood_button",
+    "rubyext:stripped_tea_wood",
+    "rubyext:tea_pressure_plate",
+    "rubyext:stripped_tea_log",
+    "rubyext:tea_trapdoor",
+    "rubyext:flamewood_fence",
+    "rubyext:stripped_flamewood_wood",
+    "rubyext:tea_slab",
+    "rubyext:flamewood_fence_gate",
+    "rubyext:flamewood_stairs",
+    "rubyext:flamewood_log",
+    "rubyext:tea_door",
+    "rubyext:tea_wood",
+    "rubyext:flamewood_slab",
+    "rubyext:flamewood_pressure_plate",
+    "rubyext:flamewood_trapdoor",
+    "rubyext:tea_fence_gate",
+    "rubyext:flamewood_door",
+    "rubyext:tea_stairs",
+    "rubyext:flamewood_wood",
+    "rubyext:stripped_flamewood_log"
+  ]
+}

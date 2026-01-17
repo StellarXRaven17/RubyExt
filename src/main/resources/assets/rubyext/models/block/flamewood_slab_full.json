@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "rubyext:block/flamewood_planks",
+    "bottom": "rubyext:block/flamewood_planks",
+    "top": "rubyext:block/flamewood_planks",
+    "side": "rubyext:block/flamewood_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rubyext:block/flamewood_leaves",
+    "particle": "rubyext:block/flamewood_leaves"
+  }
+}
