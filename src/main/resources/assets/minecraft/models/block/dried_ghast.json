@@ -1,0 +1,21 @@
+{
+	"credit": "Made by Marioood.",
+	"texture_size": [32, 32],
+	"textures": {
+		"particle": "#base"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 3],
+			"to": [13, 10, 13],
+			"faces": {
+				"north": {"uv": [0, 5, 5, 10], "texture": "#base"},
+				"east": {"uv": [10, 5, 5, 10], "texture": "#base"},
+				"south": {"uv": [10, 5, 15, 10], "texture": "#base"},
+				"west": {"uv": [5, 5, 10, 10], "texture": "#base"},
+				"up": {"uv": [0, 0, 5, 5], "texture": "#base"},
+				"down": {"uv": [5, 0, 10, 5], "texture": "#base"}
+			}
+		}
+	]
+}
