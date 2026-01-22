@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#rubyext:flamewood_tree_spawnable",
+  "features": "rubyext:flamewood_tree",
+  "step": "vegetal_decoration"
+}

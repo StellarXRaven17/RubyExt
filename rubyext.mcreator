@@ -1475,6 +1475,36 @@
         ]
       },
       "path": "~/RecipeOverrides"
+    },
+    {
+      "name": "FlamewoodTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/forge/biome_modifier/flamewood_tree_biome_modifier.json",
+          "src/main/resources/data/rubyext/worldgen/configured_feature/flamewood_tree.json",
+          "src/main/resources/data/rubyext/worldgen/placed_feature/flamewood_tree.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
+    },
+    {
+      "name": "FlamewoodTreeBig",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flamewood_tree_big",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/worldgen/configured_feature/flamewood_tree_big.json",
+          "src/main/resources/data/rubyext/worldgen/placed_feature/flamewood_tree_big.json",
+          "src/main/resources/data/rubyext/forge/biome_modifier/flamewood_tree_big_biome_modifier.json"
+        ]
+      },
+      "path": "~/Blocks/WoodSets/Flamewood"
     }
   ],
   "variable_elements": [
@@ -1623,6 +1653,12 @@
     ],
     "ITEMS:minecraft:trim_materials": [
       "CUSTOM:ObsidianIngot"
+    ],
+    "BIOMES:mod:flamewood_tree_spawnable": [
+      "forest",
+      "mutated_forest",
+      "EXTERNAL:moderner_beta:alpha",
+      "EXTERNAL:moderner_beta:infdev"
     ]
   },
   "tab_element_order": {},
@@ -1683,14 +1719,14 @@
     "files": [
       "src/main/java/net/mcreator/rubyext/init/RubyextModBlocks.java",
       "src/main/java/net/mcreator/rubyext/init/RubyextModItems.java",
-      "src/main/java/net/mcreator/rubyext/RubyextMod.java",
       "src/main/resources/META-INF/mods.toml",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/rubyext/network/RubyextModVariables.java",
       "src/main/resources/assets/rubyext/sounds.json",
+      "src/main/java/net/mcreator/rubyext/init/RubyextModTabs.java",
       "src/main/java/net/mcreator/rubyext/init/RubyextModSounds.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/rubyext/RubyextMod.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mcreator/rubyext/init/RubyextModTabs.java"
+      "src/main/java/net/mcreator/rubyext/network/RubyextModVariables.java"
     ]
   },
   "foldersRoot": {
