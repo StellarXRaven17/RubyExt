@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves_tintless",
+  "textures": {
+    "all": "minecraft:block/acacia_leaves"
+  }
+}
