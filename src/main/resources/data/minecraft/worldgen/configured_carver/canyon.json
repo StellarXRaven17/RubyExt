@@ -1,0 +1,56 @@
+{
+  "": "Probability and range modeled after relative Pre1.18 values",
+  "type": "minecraft:canyon",
+  "config": {
+    "replaceable": "#minecraft:overworld_carver_replaceables",
+    "probability": 0.0425,
+    "y": {
+      "type": "minecraft:biased_to_bottom",
+      "min_inclusive": {
+        "above_bottom": 20
+      },
+      "max_inclusive": {
+        "absolute": 160
+      },
+      "inner": 8
+    },
+    "yScale": 3,
+    "lava_level": {
+      "above_bottom": 8
+    },
+    "vertical_rotation": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": -0.125,
+        "max_exclusive": 0.125
+      }
+    },
+    "shape": {
+      "distance_factor": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.75,
+          "max_exclusive": 1
+        }
+      },
+      "thickness": {
+        "type": "minecraft:trapezoid",
+        "value": {
+          "min": 0,
+          "max": 6,
+          "plateau": 2
+        }
+      },
+      "width_smoothness": 3,
+      "horizontal_radius_factor": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0.75,
+          "max_exclusive": 1
+        }
+      },
+      "vertical_radius_default_factor": 1,
+      "vertical_radius_center_factor": 0
+    }
+  }
+}

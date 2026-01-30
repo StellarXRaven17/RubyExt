@@ -1020,7 +1020,7 @@
           "src/main/resources/data/rubyext/recipes/obsidian_ore_smelting.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianPickaxe",
@@ -1034,7 +1034,7 @@
           "src/main/resources/assets/rubyext/models/item/obsidian_pickaxe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianAxe",
@@ -1048,7 +1048,7 @@
           "src/main/resources/assets/rubyext/models/item/obsidian_axe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianSword",
@@ -1062,7 +1062,7 @@
           "src/main/java/net/mcreator/rubyext/item/ObsidianSwordItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianShovel",
@@ -1076,7 +1076,7 @@
           "src/main/java/net/mcreator/rubyext/item/ObsidianShovelItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianHoe",
@@ -1090,7 +1090,7 @@
           "src/main/resources/assets/rubyext/models/item/obsidian_hoe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianPickaxeRecipe",
@@ -1104,7 +1104,7 @@
           "src/main/resources/data/rubyext/recipes/obsidian_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianAxeRecipe",
@@ -1118,7 +1118,7 @@
           "src/main/resources/data/rubyext/advancements/recipes/obsidian_axe_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianSwordRecipe",
@@ -1132,7 +1132,7 @@
           "src/main/resources/data/rubyext/advancements/recipes/obsidian_sword_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianShovelRecipe",
@@ -1146,7 +1146,7 @@
           "src/main/resources/data/rubyext/recipes/obsidian_shovel_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianHoeRecipe",
@@ -1160,7 +1160,7 @@
           "src/main/resources/data/rubyext/advancements/recipes/obsidian_hoe_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianArmor",
@@ -1177,7 +1177,7 @@
           "src/main/resources/assets/rubyext/models/item/obsidian_armor_leggings.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianArmorHelmetRecipe",
@@ -1191,7 +1191,7 @@
           "src/main/resources/data/rubyext/advancements/recipes/obsidian_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianArmorChestplateRecipe",
@@ -1205,7 +1205,7 @@
           "src/main/resources/data/rubyext/advancements/recipes/obsidian_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianArmorLeggingsRecipe",
@@ -1219,7 +1219,7 @@
           "src/main/resources/data/rubyext/recipes/obsidian_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "ObsidianArmorBootsRecipe",
@@ -1233,7 +1233,7 @@
           "src/main/resources/data/rubyext/advancements/recipes/obsidian_armor_boots_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "CheckARGContainerLoaded",
@@ -1446,7 +1446,7 @@
           "src/main/resources/data/rubyext/advancements/recipes/obsidian_ingot_blasting.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Equipment/Obsidian"
     },
     {
       "name": "Reddyefrompoppy",
@@ -1773,7 +1773,17 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Equipment",
+            "children": [
+              {
+                "name": "Obsidian",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "RecipeOverrides",
@@ -1788,7 +1798,7 @@
     "description": " An official expansion to the #1 Minecraft-type software! Build, fight and explore a world of fantasy, and uncover the history of the land\u0027s ancients!",
     "author": "Raven",
     "websiteURL": "https://mcreator.net",
-    "license": "All Rights Reserved",
+    "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
