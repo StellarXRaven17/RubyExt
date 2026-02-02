@@ -1793,7 +1793,7 @@
   },
   "workspaceSettings": {
     "modid": "rubyext",
-    "modName": "Minecraft Rubylands Extension",
+    "modName": "Rubylands Expansion Pack",
     "version": "1.0.0",
     "description": " An official expansion to the #1 Minecraft-type software! Build, fight and explore a world of fantasy, and uncover the history of the land\u0027s ancients!",
     "author": "Raven",
@@ -1805,7 +1805,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Mod by Raven, coding help by Glitchy606, Textures by Mariood and 3EMj. Inspired by Alphaver.",
+    "credits": "D4rkXF0xx17, Glitchy606, JustAFluffyBoi, Marioood, 3emj.",
     "modElementsPackage": "net.mcreator.rubyext"
   },
   "mcreatorVersion": 202500345720
