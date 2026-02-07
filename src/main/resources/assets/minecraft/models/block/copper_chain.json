@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_chain",
-  "textures": {
-    "cross": "minecraft:block/copper_chain",
-    "cross2": "minecraft:block/copper_chain2"
-  }
-}

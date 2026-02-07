@@ -47,5 +47,6 @@
   "block.rubyext.gold_infused_lily": "Gold Infused Lily",
   "block.rubyext.obsidian_infused_lily": "Gold Infused Lily",
   "subtitles.lily_infuse": "water lily infused",
-  "subtitles.block.water_lily.infuse": "water lily gets infused"
+  "subtitles.block.water_lily.infuse": "water lily gets infused",
+  "item.rubyext.sandwich": "Sandwich"
 }

@@ -68,6 +68,8 @@ public class RubyextModTabs {
 			tabData.accept(RubyextModItems.OBSIDIAN_ARMOR_CHESTPLATE.get());
 			tabData.accept(RubyextModItems.OBSIDIAN_ARMOR_LEGGINGS.get());
 			tabData.accept(RubyextModItems.OBSIDIAN_ARMOR_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(RubyextModItems.SANDWICH.get());
 		}
 	}
 }

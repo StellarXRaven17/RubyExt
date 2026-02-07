@@ -64,6 +64,7 @@ public class RubyextModItems {
 	public static final RegistryObject<Item> FLAME_INFUSED_LILY;
 	public static final RegistryObject<Item> GOLD_INFUSED_LILY;
 	public static final RegistryObject<Item> OBSIDIAN_INFUSED_LILY;
+	public static final RegistryObject<Item> SANDWICH;
 	static {
 		WATER_LILY = block(RubyextModBlocks.WATER_LILY);
 		CELESTIAL_FLAME = block(RubyextModBlocks.CELESTIAL_FLAME);
@@ -111,6 +112,7 @@ public class RubyextModItems {
 		FLAME_INFUSED_LILY = block(RubyextModBlocks.FLAME_INFUSED_LILY);
 		GOLD_INFUSED_LILY = block(RubyextModBlocks.GOLD_INFUSED_LILY);
 		OBSIDIAN_INFUSED_LILY = block(RubyextModBlocks.OBSIDIAN_INFUSED_LILY);
+		SANDWICH = REGISTRY.register("sandwich", SandwichItem::new);
 	}
 
 	// Start of user code block custom items

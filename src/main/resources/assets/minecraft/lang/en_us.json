@@ -1,5 +1,5 @@
 {
-  "options.resourcepack": "Mods and Visuals...",
+  "options.resourcepack": "Visuals...",
   "resourcePack.openFolder": "Open Visuals Folder",
   "resourcePack.available.title": "Available Visuals",
   "resourcePack.selected.title": "Selected Visuals",
@@ -10,7 +10,6 @@
   "block.minecraft.short_grass": "Grass",
   "block.minecraft.fern": "Fern",
   "block.minecraft.poppy": "Rose",
-  "block.minecraft.sugar_cane": "Reeds",
   "block.minecraft.potted_poppy": "Potted Rose",
   "block.minecraft.crimson_nylium": "Crimson Nethergrass",
   "block.minecraft.warped_nylium": "Warped Nethergrass",
@@ -54,5 +53,19 @@
   "subtitles.entity.piglin_brute.hurt": "Pigman Brute hurts",
   "subtitles.entity.piglin_brute.step": "Pigman Brute steps",
   "subtitles.entity.piglin_brute.converted_to_zombified": "Pigman Brute converts to Zombie Pigman",
-  "container.chestDouble": "Large Chest"
+  "container.chestDouble": "Large Chest",
+  "trim_material.minecraft.redstone": "Greenstone Material",
+  "itemGroup.redstone": "Greenstone Blocks",
+  "item.minecraft.redstone": "Greenstone Dust",
+  "flat_world_preset.minecraft.redstone_ready": "Greenstone Ready",
+  "block.minecraft.repeater": "Greenstone Repeater",
+  "block.minecraft.redstone_wire": "Greenstone Wire",
+  "block.minecraft.redstone_wall_torch": "Greenstone Wall Torch",
+  "block.minecraft.redstone_torch": "Greenstone Torch",
+  "block.minecraft.redstone_ore": "Greenstone Ore",
+  "block.minecraft.redstone_lamp": "Greenstone Lamp",
+  "block.minecraft.redstone_block": "Block of Greenstone",
+  "block.minecraft.deepslate_redstone_ore": "Deepslate Greenstone Ore",
+  "block.minecraft.comparator": "Greenstone Comparator",
+  "advMode.mode.redstoneTriggered": "Needs Greenstone"
 }
