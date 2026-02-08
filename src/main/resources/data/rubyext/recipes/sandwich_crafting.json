@@ -3,10 +3,10 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "item": "minecraft:cooked_porkchop"
     },
     {
-      "tag": "c:foods/cooked_meat"
+      "item": "minecraft:bread"
     }
   ],
   "result": {
