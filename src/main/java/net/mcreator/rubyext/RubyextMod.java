@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.rubyext.init.RubyextModTabs;
 import net.mcreator.rubyext.init.RubyextModSounds;
+import net.mcreator.rubyext.init.RubyextModMenus;
 import net.mcreator.rubyext.init.RubyextModItems;
 import net.mcreator.rubyext.init.RubyextModBlocks;
 
@@ -45,6 +46,7 @@ public class RubyextMod {
 		RubyextModBlocks.REGISTRY.register(bus);
 		RubyextModItems.REGISTRY.register(bus);
 		RubyextModTabs.REGISTRY.register(bus);
+		RubyextModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

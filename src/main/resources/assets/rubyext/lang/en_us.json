@@ -48,5 +48,12 @@
   "block.rubyext.obsidian_infused_lily": "Gold Infused Lily",
   "subtitles.lily_infuse": "water lily infused",
   "subtitles.block.water_lily.infuse": "water lily gets infused",
-  "item.rubyext.sandwich": "Sandwich"
+  "item.rubyext.sandwich": "Sandwich",
+  "gui.rubyext.mod_missing_screen.button_okay": "Proceed",
+  "gui.rubyext.mod_missing_screen.label_warninglabel5": "Please have either mod installed",
+  "gui.rubyext.mod_missing_screen.label_warninglabel1": "Warning!",
+  "gui.rubyext.mod_missing_screen.label_warninglabel2": "Neither Polytone or Optifine are installed.",
+  "gui.rubyext.mod_missing_screen.label_warninglabel3": "The mod will work without them, although",
+  "gui.rubyext.mod_missing_screen.label_warninglabel4": "various visual effects will be broken.",
+  "gui.rubyext.mod_missing_screen.label_warninglabel6": "next time you launch!"
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "tag": "c:foods/cooked_meat"
+    }
+  ],
+  "result": {
+    "item": "rubyext:sandwich",
+    "count": 2
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 240,
+    "height": 142,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_okay",
+          "text": "Proceed",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 190,
+          "y": 161,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warninglabel1",
+          "text": {
+            "fixedValue": "Warning!"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 195,
+          "y": 62,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warninglabel2",
+          "text": {
+            "fixedValue": "Neither Polytone or Optifine are installed."
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 102,
+          "y": 80,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warninglabel3",
+          "text": {
+            "fixedValue": "The mod will work without them, although"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 110,
+          "y": 96,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warninglabel4",
+          "text": {
+            "fixedValue": "various visual effects will be broken."
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 118,
+          "y": 112,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warninglabel5",
+          "text": {
+            "fixedValue": "Please have either mod installed"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 126,
+          "y": 128,
+          "locked": true
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_warninglabel6",
+          "text": {
+            "fixedValue": "next time you launch!"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 158,
+          "y": 144,
+          "locked": true
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

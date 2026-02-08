@@ -47,12 +47,12 @@
     },
     "projectileDisableAmmoCheck": false,
     "isFood": true,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "nutritionalValue": 10,
+    "saturation": 0.7999999999999999,
     "eatResultItem": {
       "value": ""
     },
-    "isMeat": false,
+    "isMeat": true,
     "isAlwaysEdible": false,
     "animation": "eat",
     "isMusicDisc": false,

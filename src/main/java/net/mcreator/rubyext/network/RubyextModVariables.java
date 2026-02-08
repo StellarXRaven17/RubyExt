@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 public class RubyextModVariables {
 	public static boolean argContainerLoaded = false;
 	public static String hubAddress = "\"localhost:25463\"";
+	public static boolean visualModMissing = false;
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {

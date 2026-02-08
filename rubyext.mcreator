@@ -79,7 +79,7 @@
           "src/main/java/net/mcreator/rubyext/PackCavestyle.java"
         ]
       },
-      "path": "~/CustomCode/BuiltinResourcePacks"
+      "path": "~/CustomCode"
     },
     {
       "name": "CelestialFlamePlacement",
@@ -1247,7 +1247,7 @@
           "src/main/java/net/mcreator/rubyext/procedures/CheckARGContainerLoadedProcedure.java"
         ]
       },
-      "path": "~/CustomCode"
+      "path": "~/Procedures"
     },
     {
       "name": "FlameInfusedLily",
@@ -1488,7 +1488,7 @@
           "src/main/java/net/mcreator/rubyext/item/SandwichItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Food"
     },
     {
       "name": "CheckHubAddressValid",
@@ -1502,7 +1502,7 @@
           "src/main/java/net/mcreator/rubyext/procedures/CheckHubAddressValidProcedure.java"
         ]
       },
-      "path": "~/CustomCode"
+      "path": "~/Procedures"
     },
     {
       "name": "ChainmailHelmet",
@@ -1555,6 +1555,76 @@
         ]
       },
       "path": "~/RecipeOverrides"
+    },
+    {
+      "name": "CheckForRequiredVisualMods",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_for_required_visual_mods",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/CheckForRequiredVisualModsProcedure.java"
+        ]
+      },
+      "path": "~/GUIs/WarningPopup"
+    },
+    {
+      "name": "ModMissingScreen",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_missing_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubyext/world/inventory/ModMissingScreenMenu.java",
+          "src/main/java/net/mcreator/rubyext/client/gui/ModMissingScreenScreen.java",
+          "src/main/java/net/mcreator/rubyext/network/ModMissingScreenButtonMessage.java"
+        ]
+      },
+      "path": "~/GUIs/WarningPopup"
+    },
+    {
+      "name": "CloseGUI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubyext/procedures/CloseGUIProcedure.java"
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SandwichCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sandwich_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubyext/recipes/sandwich_crafting.json"
+        ]
+      },
+      "path": "~/Items/Food"
     }
   ],
   "variable_elements": [
@@ -1569,6 +1639,12 @@
       "type": "string",
       "scope": "global",
       "value": "\"localhost:25463\""
+    },
+    {
+      "name": "visualModMissing",
+      "type": "logic",
+      "scope": "global",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -1769,11 +1845,21 @@
       "block.rubyext.obsidian_infused_lily": "Gold Infused Lily",
       "subtitles.lily_infuse": "water lily infused",
       "subtitles.block.water_lily.infuse": "water lily gets infused",
-      "item.rubyext.sandwich": "Sandwich"
+      "item.rubyext.sandwich": "Sandwich",
+      "gui.rubyext.mod_missing_screen.button_okay": "Proceed",
+      "gui.rubyext.mod_missing_screen.label_warninglabel5": "Please have either mod installed",
+      "gui.rubyext.mod_missing_screen.label_warninglabel1": "Warning!",
+      "gui.rubyext.mod_missing_screen.label_warninglabel2": "Neither Polytone or Optifine are installed.",
+      "gui.rubyext.mod_missing_screen.label_warninglabel3": "The mod will work without them, although",
+      "gui.rubyext.mod_missing_screen.label_warninglabel4": "various visual effects will be broken.",
+      "gui.rubyext.mod_missing_screen.label_warninglabel6": "next time you launch!"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/rubyext/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubyext/init/RubyextModScreens.java",
+      "src/main/java/net/mcreator/rubyext/init/RubyextModMenus.java",
       "src/main/java/net/mcreator/rubyext/init/RubyextModBlocks.java",
       "src/main/java/net/mcreator/rubyext/init/RubyextModItems.java",
       "src/main/resources/META-INF/mods.toml",
@@ -1816,13 +1902,8 @@
         ]
       },
       {
-        "name": "CustomCode",
-        "children": [
-          {
-            "name": "BuiltinResourcePacks",
-            "children": []
-          }
-        ]
+        "name": "Procedures",
+        "children": []
       },
       {
         "name": "Biomes",
@@ -1839,12 +1920,29 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Food",
+            "children": []
           }
         ]
       },
       {
         "name": "RecipeOverrides",
         "children": []
+      },
+      {
+        "name": "CustomCode",
+        "children": []
+      },
+      {
+        "name": "GUIs",
+        "children": [
+          {
+            "name": "WarningPopup",
+            "children": []
+          }
+        ]
       }
     ]
   },
