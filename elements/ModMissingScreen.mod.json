@@ -47,13 +47,13 @@
         "data": {
           "name": "label_warninglabel2",
           "text": {
-            "fixedValue": "Neither Polytone or Optifine are installed."
+            "fixedValue": "Polytone doesn't seem to be installed."
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 102,
+          "x": 114,
           "y": 80,
           "locked": true
         }
@@ -63,13 +63,13 @@
         "data": {
           "name": "label_warninglabel3",
           "text": {
-            "fixedValue": "The mod will work without them, although"
+            "fixedValue": "The mod will work without it, although"
           },
           "color": {
             "value": -1,
             "falpha": 0.0
           },
-          "x": 110,
+          "x": 114,
           "y": 96,
           "locked": true
         }
@@ -85,7 +85,7 @@
             "value": -1,
             "falpha": 0.0
           },
-          "x": 118,
+          "x": 114,
           "y": 112,
           "locked": true
         }
@@ -95,7 +95,7 @@
         "data": {
           "name": "label_warninglabel5",
           "text": {
-            "fixedValue": "Please have either mod installed"
+            "fixedValue": "Please have Polytone installed the"
           },
           "color": {
             "value": -1,
@@ -124,8 +124,8 @@
       }
     ],
     "gridSettings": {
-      "sx": 16,
-      "sy": 18,
+      "sx": 18,
+      "sy": 16,
       "ox": 11,
       "oy": 15,
       "snapOnGrid": true

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rubyext:block/wood_slab_top",
+    "side": "rubyext:block/wood_slab"
+  }
+}

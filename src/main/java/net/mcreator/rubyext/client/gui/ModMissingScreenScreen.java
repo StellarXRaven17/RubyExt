@@ -71,9 +71,9 @@ public class ModMissingScreenScreen extends AbstractContainerScreen<ModMissingSc
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel1"), 101, 13, -65536, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel2"), 8, 31, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel3"), 16, 47, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel4"), 24, 63, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel2"), 20, 31, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel3"), 20, 47, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel4"), 20, 63, -1, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel5"), 32, 79, -1, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.rubyext.mod_missing_screen.label_warninglabel6"), 64, 95, -1, false);
 	}

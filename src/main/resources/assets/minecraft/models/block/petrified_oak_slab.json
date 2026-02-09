@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "rubyext:block/wood_slab_top",
+    "side": "rubyext:block/wood_slab",
+    "top": "rubyext:block/wood_slab_top"
+  }
+}

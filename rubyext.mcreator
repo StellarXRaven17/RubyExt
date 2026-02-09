@@ -1563,16 +1563,7 @@
       "locked_code": false,
       "registry_name": "check_for_required_visual_mods",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
+        "dependencies": [],
         "files": [
           "src/main/java/net/mcreator/rubyext/procedures/CheckForRequiredVisualModsProcedure.java"
         ]
@@ -1625,6 +1616,58 @@
         ]
       },
       "path": "~/Items/Food"
+    },
+    {
+      "name": "Netheritehelmetsmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritehelmetsmithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/netherite_helmet_smithing.json"
+        ]
+      },
+      "path": "~/RecipeOverrides"
+    },
+    {
+      "name": "Netheritechestplatesmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritechestplatesmithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/netherite_chestplate_smithing.json"
+        ]
+      },
+      "path": "~/RecipeOverrides"
+    },
+    {
+      "name": "Netheriteleggingssmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheriteleggingssmithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/netherite_leggings_smithing.json"
+        ]
+      },
+      "path": "~/RecipeOverrides"
+    },
+    {
+      "name": "Netheritebootssmithing",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritebootssmithing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/netherite_boots_smithing.json"
+        ]
+      },
+      "path": "~/RecipeOverrides"
     }
   ],
   "variable_elements": [
@@ -1847,10 +1890,10 @@
       "subtitles.block.water_lily.infuse": "water lily gets infused",
       "item.rubyext.sandwich": "Sandwich",
       "gui.rubyext.mod_missing_screen.button_okay": "Proceed",
-      "gui.rubyext.mod_missing_screen.label_warninglabel5": "Please have either mod installed",
+      "gui.rubyext.mod_missing_screen.label_warninglabel5": "Please have Polytone installed the",
       "gui.rubyext.mod_missing_screen.label_warninglabel1": "Warning!",
-      "gui.rubyext.mod_missing_screen.label_warninglabel2": "Neither Polytone or Optifine are installed.",
-      "gui.rubyext.mod_missing_screen.label_warninglabel3": "The mod will work without them, although",
+      "gui.rubyext.mod_missing_screen.label_warninglabel2": "Polytone doesn\u0027t seem to be installed.",
+      "gui.rubyext.mod_missing_screen.label_warninglabel3": "The mod will work without it, although",
       "gui.rubyext.mod_missing_screen.label_warninglabel4": "various visual effects will be broken.",
       "gui.rubyext.mod_missing_screen.label_warninglabel6": "next time you launch!"
     }
